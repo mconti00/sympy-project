@@ -1,0 +1,1 @@
+Here are some functions provided by the SymPy package to solve general equations and eventually ODEs.
