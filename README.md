@@ -22,10 +22,17 @@ conda activate my-env
 install sympy
 ```
 
+### Verifying SymPy module installation
+To verify that Sympy has been successfully installed on your system, run the following code in the Python IDE of your choice:
+```bash
+import sympy 
+sympy.__version__
+```
+
+
 ## Overview
-- Under the file "1_sympy_documentation.txt" you may find an explanation of the SymPy functions and capabilities that we will cover in this session.
-- "2_sympy_examples.py" contains a few physics-related problems solved with the said functions.
-- Finally, after the presentation, you may open "3_class_exercise.py", in which you may find the problem to be solved (check "3_class_exercise_sols.py" for the solutions)
+- The file "sympy_exercises.ipynb" is the interactive notebook which contains the examples we will go through together of how SymPy is used to solve ODEs.
+- Finally, after the presentation, you may open "class_exercise.py", in which you may find the problem to be solved (check "class_exercise_sol.py" for the solutions).
 
 
 ## Contributing
